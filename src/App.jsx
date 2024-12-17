@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <span className="App-logo">
-          Vartalaap
+          Vartalaap (©gouRAV_bhaDRA)
         </span>
 
         {/*<span className="App-nav-btn">
