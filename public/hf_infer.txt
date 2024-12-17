@@ -1,0 +1,16 @@
+import { HfInference } from "@huggingface/inference";
+
+const client = new HfInference("hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+
+const chatCompletion = await client.chatCompletion({
+	model: "mistralai/Mistral-Nemo-Instruct-2407",
+	messages: [
+		{
+			role: "user",
+			content: "What is the capital of France?"
+		}
+	],
+	max_tokens: 500
+});
+
+console.log(chatCompletion.choices[0].message);

@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Base scrollbar styling */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+/* Track styling */
+::-webkit-scrollbar-track {
+  background: #f1f1f123; /* Light grey background for the track */
+  border-radius: 30px; /* Rounded corners for the track */
+  
+}
+
+/* Thumb styling */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.107), transparent); /* Darker grey for the thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3); /* Inner shadow for depth */
+}
+
+/* Thumb hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.723), transparent);
+}
